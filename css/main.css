@@ -9,3 +9,14 @@
     --bs-primary: #142410; 
     --bs-primary-rgb:20, 36, 16;
 }
+
+/* adds background image to hero */
+#hero {
+    background-image: url(../images/homepage_hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: grey;
+    /* CHANGE THIS BACKGROUND COLOUR TO ORANGE/GREEN LATER */
+}
