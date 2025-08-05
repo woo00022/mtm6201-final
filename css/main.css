@@ -7,11 +7,30 @@
     --bs-body-font-family: 'Epilogue', sans-serif;
     --bs-heading-font-family: 'Epilogue', sans-serif;
 
+    /* Primary - Dark Green */
     --bs-primary: #142410; 
     --bs-primary-rgb:20, 36, 16;
 
+    /* Secondary - Off White */
     --bs-success: #FBF8ED;
     --bs-success-rgb:251, 248, 237;
+
+    /* Tertiary - Maroon */
+    --bs-danger:#3B0001;
+    --bs-danger-rbg:59, 0, 1 ;
+
+    /* Accent - Orange */
+    --bs-warning:#954130;
+    --bs-warning-rgb:149, 65, 48 ;
+
+    /* Accent - Light Green */
+    --bs-info: #687451;
+    --bs-info-rgb:104, 116, 81 ;
+
+    /* LIGHT GREEN - LIGHTER */
+    --bs-tertiary-color: #DBE2CC;
+    --bs-tertiary-color-rbg:219, 226, 204;
+
 }
 
 /* adds background image to hero */
