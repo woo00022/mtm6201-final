@@ -33,6 +33,11 @@
 
 }
 
+.logo-img {
+    height: 2rem;
+    width: auto;
+}
+
 /* adds background image to hero */
 #hero {
     background-image: url(../images/homepage_hero.jpg);

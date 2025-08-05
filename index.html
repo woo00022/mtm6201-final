@@ -1,3 +1,5 @@
+<!-- ************************ HOMEPAGE ************************ -->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,22 +18,24 @@
     
     <!-- ======== NAVIGATION BAR ========= -->
     <header class="sticky-top"> 
-      <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-md bg-primary"">
         <div class="container">
-          <a class="navbar-brand" href="#">LOGO</a>
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="images/logo-plant-palette.svg" alt="Plant Palette Logo" class="img- logo-img me-2">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                <a class="nav-link active text-success" aria-current="page" href="#">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">About</a>
+                <a class="nav-link active text-success" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Reserve</a>
+                <a class="nav-link active " href="#">Reserve</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Catering</a>
@@ -52,10 +56,10 @@
     <section id="hero">
       <div class="container"> 
         <div class="d-flex justify-content-center align-items-center">
-          <div class="text-white text-center">
+          <div class="text-success text-center">
             <h1 class="display-1">Bold Flavours. Local Roots.</h1>
             <p class="lead">Dig into bold vegan dishes made with local ingredients, organic values, and a whole lot of heart. </p>
-            <button class="btn btn-light" type="button">Discover the Flavours</button>
+            <button class="btn btn-warning" type="button">Discover the Flavours</button>
           </div>
         </div>
       </div>
@@ -71,28 +75,28 @@
           </div>
           <div class="col-lg-6 align-self-center">
             <h2 class="mb-4">Explore Our Seasonal Plant-Powered Menu</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem voluptates dolore necessitatibus eius? Deserunt excepturi pariatur assumenda nemo laudantium fugit aliquid mollitia? Reiciendis consequuntur distinctio aperiam magni magnam asperiores.</p>
-            <button class="btn btn-light" type="button">See What's Cooking</button>
+            <p>Made from the freshest local ingredients, our seasonal menu is packed with bold, plant-powered flavours that'll keep you coming back for me. From crispy startes to hearty mains and vibrant sides, every dish is crafted with care - and a little sprinkle of love - to satisfy your taste buds and your values.</p>
+            <button class="btn btn-warning" type="button">See What's Cooking</button>
           </div>
         </div>
       </div>
     </section>  
 
     <!-- ======= SECTION 2 CARDS - EXPLORE OUR OFFERS -->
-    <section id="cards" class="py-5">
+    <section id="cards" class="py-5 bg-tertiary">
       <div class="container">
-        <h2 class="mb-4">Explore Our Offers</h2>
+        <h2 class="mb-4 text-center">Explore Our Offers</h2>
 
         <div class="row gy-4">
 
           <!-- Card One - About Us -->
           <div class="col-sm-6 col-lg-3">
-            <div class="card text-bg-dark">
+            <div class="card">
               <img src="images/homepage_aboutus.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="h4 card-title">About Us</h5>
                 <p class="card-text">Discover the story behind Plant Palette - a community focused restaurant rooted in sustainability, local sourcing, and a passion for vibrant, plant-based foods.</p>
-                <a href="#" class="btn btn-light">Learn</a>
+                <a href="#" class="btn btn-primary">Learn</a>
               </div>
             </div>
           </div>
@@ -100,12 +104,12 @@
 
           <!-- Card Two - Reserve -->
           <div class="col-sm-6 col-lg-3">
-            <div class="card text-bg-dark">
+            <div class="card">
               <img src="images/homepage_reserve.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="h4 card-title">Reserve</h5>
                   <p class="card-text">Save your spot and gt ready for a delicious meal made from the best local ingredients. Booking ahead means you won't miss out on the vibrant flavours Plant Palette has to offer. </p>
-                  <a href="#" class="btn btn-light">Reserve Now!</a>
+                  <a href="#" class="btn btn-primary">Reserve Now!</a>
                 </div>
             </div>
           </div>
@@ -113,12 +117,12 @@
 
           <!-- Card Three - Catering -->
           <div class="col-sm-6 col-lg-3">
-            <div class="card text-bg-dark">
+            <div class="card">
                 <img src="images/homepage_catering.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="h4 card-title">Catering</h5>
                   <p class="card-text">From intimate dinners to big celebrations, our catering offers delicious vegan dishes made with love and local ingredients - perfect for any occasion.</p>
-                  <a href="#" class="btn btn-light">View Offers</a>
+                  <a href="#" class="btn btn-primary">View Offers</a>
                 </div>
             </div>
           </div>
@@ -129,7 +133,7 @@
     </section>
 
     <!-- ========= SECTION 3 - JOIN OUR TEAM =========  -->
-    <section class="py-5 bg-dark text-white">
+    <section class="py-5 bg-success text-dark">
       <div class="container">
 
         <div class="row">
@@ -139,7 +143,7 @@
             <div class="col-lg-6 align-self-center order-lg-1">
               <h2 class="mb-4">Join Our Team</h2>
               <p>Love plant-based food and caring for the planet? Plant Palette is more than a restaurant - it's a vibrant community where passion meets purpose. Bring your creativity, enthusiasim, and love for local ingredients to a team that supports your growth and values your voice. Whether you're a kitchen pro or eager to learn, join us and help create delicious meals that make a difference. ready to be a part of something fresh, fun and meaningfun? Lets grow together!</p>
-              <button class="btn btn-light" type="button">Grow With Us</button>
+              <button class="btn btn-warning" type="button">Grow With Us</button>
             </div>
         </div>
 
@@ -147,61 +151,60 @@
     </section> 
 
     <!-- ========== FOOTER ========= -->
-    <footer class="py-3 my-4">
+    <footer class="py-3 my-4 bg-primary">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
 
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">Menu</a>
+          <a href="#" class="nav-link px-2 text-success">Menu</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          <a href="#" class="nav-link px-2 text-success">About</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">Reserve</a>
+          <a href="#" class="nav-link px-2 text-success">Reserve</a>
         </li>
 
         <!-- LOGO -->
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">LOGO GOES HERE</a>
+          <a href="#" class="nav-link px-2 text-success">
+            <img src="images/logo-plant-palette.svg" alt="Plant Palette Logo" class="img- logo-img me-2">
+          </a>
         </li>
 
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">Catering</a>
+          <a href="#" class="nav-link px-2 text-success">Catering</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">Careers</a>
+          <a href="#" class="nav-link px-2 text-success">Careers</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">Contact</a>
+          <a href="#" class="nav-link px-2 text-success">Contact</a>
         </li>
       </ul>
 
       <ul class="nav justify-content-center pb-3 mb-3">
 
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">224 Plant St. | Ottawa ON</a>
+          <a href="#" class="nav-link px-2 text-success">224 Plant St. | Ottawa ON</a>
         </li>
 
         <!-- SOCIAL ICONS -->
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">ICON </a>
+          <a href="#" class="nav-link px-2 text-success">ICON</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">ICON</a>
+          <a href="#" class="nav-link px-2 text-success">ICON</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">ICON</a>
+          <a href="#" class="nav-link px-2 text-success">ICON</a>
         </li>
 
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-body-secondary">hello@plantpaletterestaurant.ca</a>
+          <a href="#" class="nav-link px-2 text-success">hello@plantpaletterestaurant.ca</a>
         </li>
       </ul>
-
-
-
       
-      <p class="text-center text-body-secondary"> Copyright Plant Palette</p>
+      <p class="text-center text-success"> Copyright Plant Palette</p>
 
     </footer>
       
