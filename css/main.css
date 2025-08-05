@@ -11,9 +11,12 @@
     --bs-primary: #142410; 
     --bs-primary-rgb:20, 36, 16;
 
-    /* Secondary - Off White */
-    --bs-success: #FBF8ED;
-    --bs-success-rgb:251, 248, 237;
+    --bs-success:#F0E7C2;
+    --bs-success-rgb:240, 231, 194;
+
+    /* Secondary - Off White LIGHTER */
+    --bs-light: #FBF8ED;
+    --bs-light-rgb:251, 248, 237;
 
     /* Tertiary - Maroon */
     --bs-danger:#3B0001;
@@ -34,7 +37,7 @@
 }
 
 .logo-img {
-    height: 2rem;
+    height: 2.5rem;
     width: auto;
 }
 
