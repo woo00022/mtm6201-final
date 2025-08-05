@@ -6,8 +6,12 @@
 :root {
     --bs-body-font-family: 'Epilogue', sans-serif;
     --bs-heading-font-family: 'Epilogue', sans-serif;
+
     --bs-primary: #142410; 
     --bs-primary-rgb:20, 36, 16;
+
+    --bs-success: #FBF8ED;
+    --bs-success-rgb:251, 248, 237;
 }
 
 /* adds background image to hero */
