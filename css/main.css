@@ -90,3 +90,16 @@ hr {
     /* CHANGE THIS BACKGROUND COLOUR TO ORANGE/GREEN LATER */
 }
 
+
+
+
+/* --------------------- RESERVE PAGE ------------------------- */
+
+#hero-reserve {
+    background-image: url(../images/reserve_dig-deeper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: grey;
+
