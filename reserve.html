@@ -68,9 +68,17 @@
 
               <h3 class="text-center">Book your Reservation</h3>
 
-              <!-- first name -->
-
-              <!-- last name -->
+              <!-- first & last name -->
+              <div class="row">
+                <div class="col">
+                  <label for="..." class="form-label">First Name</label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col mb-3">
+                    <label for="..." class="form-label">First Name</label>
+                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
 
               <!-- email -->
               <div class="mb-3">
@@ -80,16 +88,44 @@
               </div>
 
               <!-- phone number -->
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Phone Number*</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
 
+              
 
               <!-- ---------------------------------------------- -->
 
-              <!-- date -->
+              <!-- date & time -->
 
-              <!-- time -->
+              <div class="row">
+                <div class="mb-3 col">
+                  <label for="date" class="form-label">Date</label>
+                    <input type="date" class="form-control" id="date" name="date">
+                </div>
+
+                <div class="mb-3 col">
+                  <label for="time" class="form-label">Time</label>
+                    <input type="time" class="form-control" id="time" name="time">
+                </div>
+              </div>
+
+      
 
               <!-- number of people -->
-
+              <div class="mb-3">
+                <label for="..." class="form-label">Number Of People</label>
+                  <select class="form-select form-select-sm" aria-label="Small select example">
+                    <option selected>Please Select</option>
+                    <option value="1">1-2</option>
+                    <option value="2">2-4</option>
+                    <option value="3">4-8</option>
+                    <option value="3">8-12</option>
+                    <option value="3">12+ Please leave a comment with the amount.</option>
+                  </select>
+              </div>
 
               <!-- ---------------------------------------------- -->
 
