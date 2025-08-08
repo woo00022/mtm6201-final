@@ -1,5 +1,3 @@
-/*  **************************** HOMEPAGE CSS ****************************** */
-
 /* CSS STARTS HERE */
 
 /* Brand Font */
@@ -52,6 +50,12 @@
 .logo-img {
     height: 2.5rem;
     width: auto;
+}
+
+/* --------------------- FOOTER------------------------- */
+
+.fa-brands {
+    font-size: 2rem;
 }
 
 /* --------------------- HOMEPAGE ------------------------- */
@@ -132,11 +136,4 @@ hr {
     background-repeat: no-repeat;
 
     background-color: grey;
-}
-
-
-/* --------------------- FOOTER------------------------- */
-
-.fa-brands {
-    font-size: 2rem;
 }
