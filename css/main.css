@@ -35,6 +35,15 @@
 
     /* LIGHT RED - WARNING VAR */
     --pp-warning-light: #DEB1A8;
+
+    /* --- TYPESCALE ---- */
+    --fs-sm: clamp(0.6rem, 0.44vi + 0.49rem, 0.84rem);
+    --fs-base: clamp(0.75rem, 0.68vi + 0.58rem, 1.13rem);
+    --fs-md: clamp(0.94rem, 1.02vi + 0.68rem, 1.5rem);
+    --fs-lg: clamp(1.17rem, 1.5vi + 0.8rem, 2rem);
+    --fs-xl: clamp(1.46rem, 2.18vi + 0.92rem, 2.66rem);
+    --fs-xxl: clamp(1.83rem, 3.13vi + 1.05rem, 3.55rem);
+    --fs-xxxl: clamp(2.29rem, 4.45vi + 1.18rem, 4.73rem);
 }
 
 .bg-pp-tertiary {
@@ -44,6 +53,32 @@
 .bg-pp-warning-light {
     background-color: var(--pp-warning-light);
 }
+
+/* typescale adjustments */
+.display-1 {
+    font-size: var(--fs-xxxl);
+}
+.display-3 {
+    font-size: var(--fs-xl)
+}
+h1 {
+    font-size: var(--fs-xl)
+}
+h2 {
+    font-size: var(--fs-lg)
+}
+h3 {
+    font-size: var(--fs-md);
+}
+p {
+    font-size: var(--fs-base);
+}
+.small-text {
+    font-size: var(--fs-sm);
+}
+
+
+
 
 
 /* --------------------- SKIP LINKS ------------------------- */
