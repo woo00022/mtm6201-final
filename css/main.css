@@ -45,12 +45,58 @@
     background-color: var(--pp-warning-light);
 }
 
+
+/* --------------------- BUTTONS ------------------------- */
+
+/* warning colour */
+.btn-warning:hover {
+    background-color:#5E2317;
+}
+button.btn.btn-warning:active {
+    background-color: var(--bs-danger);
+}
+a.btn.btn-warning:active {
+    background-color: var(--bs-danger);
+}
+
+/* danger colour */
+.btn-danger:hover {
+    background-color: var(--bs-warning);
+}
+button.btn.btn-danger:active {
+    background-color: #2B0001;
+    color: #B4AD93;
+}
+
+/* primary colour */
+.btn-primary:hover {
+    background-color: var(--bs-info);
+}
+a.btn.btn-primary:active {
+    background-color: #001908;
+    color: #B4AD93;
+}
+
+/* light colour */
+.btn-light:hover {
+    background-color:var(--bs-warning);
+}
+button.btn.btn-light:active {
+    background-color: var(--bs-danger);
+}
+
+
 /* --------------------- NAV BAR ------------------------- */
 
 .logo-img {
     height: 2.5rem;
     width: auto;
 }
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
 
 /* --------------------- FOOTER------------------------- */
 
