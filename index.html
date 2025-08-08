@@ -20,9 +20,16 @@
   <body>
     
     <!-- ======== NAVIGATION BAR ========= -->
-    <header class="sticky-top"> 
-      <nav class="navbar navbar-expand-md bg-primary py-3 data-bs-theme="dark">
+    <header class="sticky-top site-header" role="banner"> 
+      <nav class="navbar navbar-expand-md bg-primary py-3" data-bs-theme="dark">
         <div class="container">
+
+          <!-- SKIP LINKS -->
+          <a href="#main" class="skip">Main</a>
+          <a href="#menu" class="skip">Explore the Menu</a>
+          <a href="#offers" class="skip">Explore Our Offers</a>
+          <a href="#join" class="skip">Join Our Team</a>
+
           <a class="navbar-brand d-flex align-items-center" href="index.html">
             <img src="images/logo-plant-palette_light.svg" alt="Plant Palette Logo" class="img-fluid logo-img me-2">
           </a>
@@ -57,7 +64,7 @@
 
     <!-- ======== HERO ========= -->
     <section id="hero-main" class="py-5">
-      <div class="container py-5"> 
+      <div class="container py-5" id="main"> 
         <div class="d-flex justify-content-center align-items-center py-5">
           <div class="text-success text-center py-5">
             <h1 class="display-1 py-5 fw-medium">Bold Flavours. Local Roots.</h1>
@@ -69,7 +76,7 @@
     </section>
 
     <!-- ======== SECTION 1 - Explore Our Seasonal Plant-Powered Menu ======= -->
-    <section class="py-5 bg-light text-dark">
+    <section class="py-5 bg-light text-dark" id="menu">
       <div class="container">
 
         <div class="row mb-4">
@@ -90,7 +97,7 @@
 
     <!-- ======= SECTION 2 CARDS - EXPLORE OUR OFFERS -->
     <section id="cards" class="py-5 bg-pp-tertiary">
-      <div class="container py-3">
+      <div class="container py-3" id="offers">
         <h2 class="mb-4 text-center">Explore Our Offers</h2>
 
         <div class="row gy-4 gx-5 justify-content-center">
@@ -146,7 +153,7 @@
 
     
     <!-- ========= SECTION 3 - JOIN OUR TEAM =========  -->
-    <section class="py-5 bg-light text-dark">
+    <section class="py-5 bg-light text-dark" id="join">
       <div class="container">
 
         <div class="row align-items-center">

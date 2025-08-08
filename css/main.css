@@ -46,6 +46,24 @@
 }
 
 
+/* --------------------- SKIP LINKS ------------------------- */
+/* skip links */
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* focus status for skip links */
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
 /* --------------------- BUTTONS ------------------------- */
 
 /* warning colour */
