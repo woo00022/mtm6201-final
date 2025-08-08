@@ -35,10 +35,16 @@
    /* LIGHT GREEN - LIGHTER */
     --pp-tertiary: #DBE2CC;
 
+    /* LIGHT RED - WARNING VAR */
+    --pp-warning-light: #DEB1A8;
 }
 
 .bg-pp-tertiary {
     background-color: var(--pp-tertiary);
+}
+
+.bg-pp-warning-light {
+    background-color: var(--pp-warning-light);
 }
 
 /* --------------------- HOMEPAGE ------------------------- */
@@ -89,8 +95,6 @@ hr {
     background-color: grey;
     /* CHANGE THIS BACKGROUND COLOUR TO ORANGE/GREEN LATER */
 }
-
-
 
 
 /* --------------------- RESERVE PAGE ------------------------- */
