@@ -48,7 +48,7 @@
 
 /* --------------------- SKIP LINKS ------------------------- */
 /* skip links */
-/* .skip {
+.skip {
   position: absolute;
   left: -10000px;
   top: auto;
@@ -62,7 +62,7 @@
   position: static;
   width: auto;
   height: auto;
-} */
+}
 
 /* --------------------- BUTTONS ------------------------- */
 
