@@ -102,6 +102,11 @@ hr {
     background-color: var(--pp-warning-light);
 }
 
+.about-images {
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
 
 /* --------------------- RESERVE PAGE ------------------------- */
 
