@@ -21,8 +21,16 @@
     
     <!-- ======== NAVIGATION BAR ========= -->
     <header class="sticky-top"> 
-      <nav class="navbar navbar-expand-md bg-primary py-3" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-md bg-primary py-3" data-bs-theme="dark" role="navigation">
         <div class="container">
+
+          <!-- SKIP LINKS -->
+          <a href="#about-main" class="skip">Main</a>
+          <a href="#values" class="skip">Our Values</a>
+          <a href="#team" class="skip">Meet the Team</a>
+          <a href="#history" class="skip">Our History</a>
+
+
           <a class="navbar-brand d-flex align-items-center" href="index.html">
             <img src="images/logo-plant-palette_light.svg" alt="Plant Palette Logo" class="img-fluid logo-img me-2">
           </a>
@@ -57,7 +65,7 @@
 
     <!-- ======== HERO - Section 1 ========= -->
     <section id="hero-about" class="py-5">
-      <div class="container py-5"> 
+      <div class="container py-5" id="about-main"> 
         <div class="d-flex justify-content-left align-items-left py-5">
           <div class="text-success text-start py-5">
             <h1 class="display-3 py-5 fw-medium">From Soil to Soul - Our Journey</h1>
@@ -70,7 +78,7 @@
 
     <!-- ======= SECTION 2 CARDS - OUR VALUES ======== -->
     <section id="cards" class="py-5 bg-pp-warning-light">
-      <div class="container py-3">
+      <div class="container py-3" id="values">
         <h2 class="text-center mb-5">Our Values</h2>
 
         <div class="row gy-4 gx-2 justify-content-center">
@@ -123,7 +131,7 @@
     </section>
 
     <!-- ========== SECTION 3 - Meet The Team! ===========  -->
-    <section class="py-5 bg-light text-dark">
+    <section class="py-5 bg-light text-dark" id="team">
         <div class="container">
 
             <h2 class="text-center mb-5">Meet The Team!</h2>
@@ -170,7 +178,7 @@
 
     
     <!-- ========== SECTION 4 - Our History  ===========  -->
-    <section>
+    <section id="history">
       <div class="container-fluid px-0">
         <div class="row gx-0">
           <div class="col-4">
