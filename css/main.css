@@ -96,7 +96,11 @@ hr {
     /* CHANGE THIS BACKGROUND COLOUR TO ORANGE/GREEN LATER */
 }
 
-
+.card-img-top.our-values {
+    height: 4rem;
+    object-fit: contain;
+    background-color: var(--pp-warning-light);
+}
 
 
 /* --------------------- RESERVE PAGE ------------------------- */
