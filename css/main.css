@@ -47,12 +47,14 @@
     background-color: var(--pp-warning-light);
 }
 
-/* --------------------- HOMEPAGE ------------------------- */
+/* --------------------- NAV BAR ------------------------- */
 
 .logo-img {
     height: 2.5rem;
     width: auto;
 }
+
+/* --------------------- HOMEPAGE ------------------------- */
 
 /* adds background image to hero */
 #hero-main {
@@ -130,4 +132,11 @@ hr {
     background-repeat: no-repeat;
 
     background-color: grey;
+}
+
+
+/* --------------------- FOOTER------------------------- */
+
+.fa-brands {
+    font-size: 2rem;
 }
