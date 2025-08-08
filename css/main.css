@@ -110,6 +110,16 @@ hr {
 
 /* --------------------- RESERVE PAGE ------------------------- */
 
+#hero-form {
+    background-image: url(../images/reserve_hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: grey;
+}
+
+
 #hero-reserve {
     background-image: url(../images/reserve_dig-deeper.jpg);
     background-position: center;
