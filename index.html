@@ -81,7 +81,42 @@
 
         <div class="row mb-4">
           <div class="col-lg-6">
-            <img src="images/homepage_menu.jpg" alt="Picture of two plates with vegetarian meals on black plates" class="img-fluid">
+
+
+            <picture>
+
+              <!-- lg and up -->
+              <source
+                srcset="
+                images/homepage_careers-960x.jpg,
+                images/homepage_careers-1440x.jpg 1.5x,
+                images/homepage_careers-1920x.jpg 2x"
+
+                media="(min-width: 992px)">
+
+              <!-- md to lg -->
+              <source
+                srcset="
+                images/homepage_careers-640x.jpg,
+                images/homepage_careers-960x.jpg 1.5,
+                images/homepage_careers-1440x.jpg 2x"
+
+                media="(min-width: 768px)">
+
+              <!-- sm and below -->
+              <source 
+                srcset="
+                images/homepage_careers-480x.jpg,
+                images/homepage_careers-720x.jpg 1.5x,
+                images/homepage_careers-960x.jpg 2x"
+
+                media="(max-width: 767px)">
+
+              <!-- og/fallback image -->
+              <img src="images/homepage_menu.jpg" alt="Picture of two plates with vegetarian meals on black plates" class="img-fluid">
+
+            </picture>
+
           </div>
           <div class="col-lg-6 align-self-center ps-4">
             <h2 class="my-4 text-center text-lg-start" role="heading">Explore Our Seasonal Plant-Powered Menu</h2>
