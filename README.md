@@ -17,3 +17,6 @@ All photos used from [Unsplash](https://unsplash.com)
 
 
 Thanks for an awesome semester Wendy! Have a great rest of your summer! :)
+
+Link to Figma in plain text
+https://www.figma.com/design/ZP9FfSQumFj0EcWncSe9UQ/25.Woo-Tasia_?node-id=1-11&t=PujXbuYLGaKmEZta-1
