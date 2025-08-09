@@ -161,15 +161,37 @@
 
             <picture>
 
+              <!-- lg and up -->
               <source
                 srcset="
-                images/homepage_careers-"
+                images/homepage_careers-960x.jpg,
+                images/homepage_careers-1440x.jpg 1.5x,
+                images/homepage_careers-1920x.jpg 2x"
+
+                media="(min-width: 992px)">
+
+              <!-- md to lg -->
+              <source
+                srcset="
+                images/homepage_careers-640x.jpg,
+                images/homepage_careers-960x.jpg 1.5,
+                images/homepage_careers-1440x.jpg 2x"
+
+                media="(min-width: 768px)">
+
+              <!-- sm and below -->
+              <source 
+                srcset="
+                images/homepage_careers-480x.jpg,
+                images/homepage_careers-720x.jpg 1.5x,
+                images/homepage_careers-960x.jpg 2x"
+
+                media="(max-width: 767px)">
+
+              <!-- og/fallback image -->
+              <img src="images/homepage_careers.jpg" alt="A chef adding spices to plates of food in a kitchen." class="img-fluid">
 
             </picture>
-
-
-
-            <img src="images/homepage_careers.jpg" alt="A chef adding spices to plates of food in a kitchen." class="img-fluid">
           </div>
 
             <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center align-self-center px-5 text-center text-lg-start">
