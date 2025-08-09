@@ -139,7 +139,40 @@
           <!-- Card One - About Us -->
           <div class="col-12 col-lg-4 d-flex">
             <div class="card border-0 flex-fill">
+
+              <picture>
+              <!-- lg and up -->
+              <source
+                srcset="
+                images/homepage_aboutus-960x.jpg,
+                images/homepage_aboutus-1440x.jpg 1.5x,
+                images/homepage_aboutus-1920x.jpg 2x"
+
+                media="(min-width: 992px)">
+
+              <!-- md to lg -->
+              <source
+                srcset="
+                images/homepage_aboutus-640x.jpg,
+                images/homepage_aboutus-960x.jpg 1.5,
+                images/homepage_aboutus-1440x.jpg 2x"
+
+                media="(min-width: 768px)">
+
+              <!-- sm and below -->
+              <source 
+                srcset="
+                images/homepage_aboutus-480x.jpg,
+                images/homepage_aboutus-720x.jpg 1.5x,
+                images/homepage_aboutus-960x.jpg 2x"
+
+                media="(max-width: 767px)">
+
+              <!-- og/fallback image -->
               <img src="images/homepage_aboutus.jpg" class="card-img-top" alt="Over the shoulder photo of someone picking tomatos off a plant.">
+
+            </picture>
+
               <div class="card-body bg-pp-tertiary text-center d-flex flex-column">
                 <h5 class="h4 card-title py-2">About Us</h5>
                 <p class="card-text text-start">Discover the story behind Plant Palette - a community focused restaurant rooted in sustainability, local sourcing, and a passion for vibrant, plant-based foods.</p>
@@ -154,7 +187,41 @@
           <!-- Card Two - Reserve -->
           <div class="col-12 col-lg-4 d-flex">
             <div class="card border-0 flex-fill">
+
+              <picture>
+
+              <!-- lg and up -->
+              <source
+                srcset="
+                images/homepage_reserve-960x.jpg,
+                images/homepage_reserve-1440x.jpg 1.5x,
+                images/homepage_reserve-1920x.jpg 2x"
+
+                media="(min-width: 992px)">
+
+              <!-- md to lg -->
+              <source
+                srcset="
+                images/homepage_reserve-640x.jpg,
+                images/homepage_reserve-960x.jpg 1.5,
+                images/homepage_reserve-1440x.jpg 2x"
+
+                media="(min-width: 768px)">
+
+              <!-- sm and below -->
+              <source 
+                srcset="
+                images/homepage_reserve-480x.jpg,
+                images/homepage_reserve-720x.jpg 1.5x,
+                images/homepage_reserve-960x.jpg 2x"
+
+                media="(max-width: 767px)">
+
+              <!-- og/fallback image -->
               <img src="images/homepage_reserve.jpg" class="card-img-top" alt="4 People gathered at a table eating happily.">
+
+            </picture>
+
                 <div class="card-body bg-pp-tertiary text-center d-flex flex-column">
                   <h5 class="h4 card-title py-2">Reserve</h5>
                   <p class="card-text text-start">Save your spot and gt ready for a delicious meal made from the best local ingredients. Booking ahead means you won't miss out on the vibrant flavours Plant Palette has to offer. </p>
